@@ -3,10 +3,6 @@
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],
-  "web_accessible_resources": [{
-    "resources": ["*.js"],
-    "matches": ["https://*/*"]
-  }],
   "background": {
     "service_worker": "background.js"
   },
